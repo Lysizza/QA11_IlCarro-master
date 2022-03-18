@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RegistrationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-18T08:04:23" hostname="DESKTOP-GTJO46A" time="5.282">
+  <properties/>
+  <testcase name="registrationPositiveTest" classname="tests.RegistrationTests" time="4.089"/>
+  <testcase name="registrationPositiveTestModel" classname="tests.RegistrationTests" time="1.031"/>
+  <system-out><![CDATA[10:04:23. INFO  tests.TestBase - Test name ----->registrationPositiveTest
+10:04:23. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[contains(.,'Delete account')]
+10:04:23. INFO  manager.MyListener - The element with locator --->By.xpath: //a[contains(.,'Delete account')]was found
+10:04:23. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[text()=' Logout ']
+10:04:23. INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()=' Logout ']was found
+Email: od26il27263@gmail.com
+10:04:23. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href$='/registration?url=%2Fsearch']
+10:04:23. INFO  manager.MyListener - The element with locator --->By.cssSelector: [href$='/registration?url=%2Fsearch']was found
+10:04:24. INFO  manager.MyListener - Start search element by locator --->By.id: name
+10:04:24. INFO  manager.MyListener - The element with locator --->By.id: namewas found
+10:04:24. INFO  manager.MyListener - Start search element by locator --->By.id: lastName
+10:04:24. INFO  manager.MyListener - The element with locator --->By.id: lastNamewas found
+10:04:24. INFO  manager.MyListener - Start search element by locator --->By.id: email
+10:04:24. INFO  manager.MyListener - The element with locator --->By.id: emailwas found
+10:04:24. INFO  manager.MyListener - Start search element by locator --->By.id: password
+10:04:24. INFO  manager.MyListener - The element with locator --->By.id: passwordwas found
+10:04:24. INFO  manager.MyListener - Start search element by locator --->By.xpath: //label[@for = 'terms-of-use']
+10:04:24. INFO  manager.MyListener - The element with locator --->By.xpath: //label[@for = 'terms-of-use']was found
+10:04:24. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[@type='submit']
+10:04:25. INFO  manager.MyListener - The element with locator --->By.xpath: //button[@type='submit']was found
+10:04:28. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text() ='Ok']
+10:04:28. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text() ='Ok']was found
+10:04:28. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text() ='Ok']
+10:04:28. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text() ='Ok']was found
+10:04:28. INFO  tests.TestBase - Test endregistrationPositiveTest
+10:04:28. INFO  tests.TestBase - Test name ----->registrationPositiveTestModel
+10:04:28. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[contains(.,'Delete account')]
+10:04:28. INFO  manager.MyListener - The element with locator --->By.xpath: //a[contains(.,'Delete account')]was found
+10:04:28. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[text()=' Logout ']
+10:04:28. INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()=' Logout ']was found
+10:04:28. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href$='/registration?url=%2Fsearch']
+10:04:28. INFO  manager.MyListener - The element with locator --->By.cssSelector: [href$='/registration?url=%2Fsearch']was found
+10:04:28. INFO  manager.MyListener - Start search element by locator --->By.id: name
+10:04:28. INFO  manager.MyListener - The element with locator --->By.id: namewas found
+10:04:28. INFO  manager.MyListener - Start search element by locator --->By.id: lastName
+10:04:28. INFO  manager.MyListener - The element with locator --->By.id: lastNamewas found
+10:04:28. INFO  manager.MyListener - Start search element by locator --->By.id: email
+10:04:28. INFO  manager.MyListener - The element with locator --->By.id: emailwas found
+10:04:28. INFO  manager.MyListener - Start search element by locator --->By.id: password
+10:04:28. INFO  manager.MyListener - The element with locator --->By.id: passwordwas found
+10:04:28. INFO  manager.MyListener - Start search element by locator --->By.xpath: //label[@for = 'terms-of-use']
+10:04:28. INFO  manager.MyListener - The element with locator --->By.xpath: //label[@for = 'terms-of-use']was found
+10:04:29. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[@type='submit']
+10:04:29. INFO  manager.MyListener - The element with locator --->By.xpath: //button[@type='submit']was found
+10:04:29. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text() ='Ok']
+10:04:39. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text() ='Ok']was found
+10:04:39. INFO  tests.TestBase - Test endregistrationPositiveTestModel
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
