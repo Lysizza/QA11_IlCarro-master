@@ -81,39 +81,39 @@ public class CarHelper extends HelperBase {
     }
 
 
-    public int countOfCars() {
-        return wd.findElements(By.cssSelector(".cars-container")).size();//not count
-    }
-
-    public void providerOfCars() {
-        if (countOfCars() < 3) {
-            int index = (int) (System.currentTimeMillis() / 1000) % 3600;
-            for (int i = 0; i < 3; i++) {
-
-                Car car = new Car().withAddress("Haifa")
-                        .withMake("Audi")
-                        .withModel("4T")
-                        .withYear("2019")
-                        .withEngine("2000")
-                        .withFuel("Petrol")
-                        .withGear("AT")
-                        .withWD("RWD")
-                        .withDoors("5")
-                        .withSeats("5")
-                        .withClasS("Luxury")
-                        .withFuelConsumption("10")
-                        .withCarRegNumber("12210101" + i)
-                        .withPrice("350")
-                        .withDistanceIncluded("500")
-                        .withTypeFeature("feature")
-                        .withAbout("very nice");
-                openCarForm();
-                fillCarForm(car);
-                isCarAdded();
-                pause(1000);
-            }
-        }
-    }
+//    public int countOfCars() {
+//        return wd.findElements(By.cssSelector(".cars-container")).size();//not count
+//    }
+//
+//    public void providerOfCars() {
+//        if (countOfCars() < 3) {
+//            int index = (int) (System.currentTimeMillis() / 1000) % 3600;
+//            for (int i = 0; i < 3; i++) {
+//
+//                Car car = new Car().withAddress("Haifa")
+//                        .withMake("Audi")
+//                        .withModel("4T")
+//                        .withYear("2019")
+//                        .withEngine("2000")
+//                        .withFuel("Petrol")
+//                        .withGear("AT")
+//                        .withWD("RWD")
+//                        .withDoors("5")
+//                        .withSeats("5")
+//                        .withClasS("Luxury")
+//                        .withFuelConsumption("10")
+//                        .withCarRegNumber("12210101" + i)
+//                        .withPrice("350")
+//                        .withDistanceIncluded("500")
+//                        .withTypeFeature("feature")
+//                        .withAbout("very nice");
+//                openCarForm();
+//                fillCarForm(car);
+//                isCarAdded();
+//                pause(1000);
+//            }
+//        }
+//    }
 }
 
 

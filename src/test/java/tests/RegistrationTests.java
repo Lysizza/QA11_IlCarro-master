@@ -14,11 +14,11 @@ public class RegistrationTests extends TestBase{
         }
     }
 
-    @Test(groups = {"web"})
+    @Test //(groups = {"web"})
     public void registrationPositiveTest() {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
        // User user = new User().withName("Lis").withLastname("Snow").withEmail("snow" + i + "gmail.com").withPassword("Ss12345$");
-       String eMail = "od26il27" + i + "@gmail.com";
+       String eMail = "alisa.test25" + i + "@gmail.com";
        String password = "Aa7166735";
        String name = "Lysizza";
        String lastName = "BlackSilver";

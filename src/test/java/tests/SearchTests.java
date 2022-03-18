@@ -10,7 +10,7 @@ public class SearchTests extends TestBase {
     public void searchPeriodCurrentMonth(){
         //2/25/2022 - 2/28/2022
 
-        app.search().fillSearchFormCurrentMonth("Tel Aviv, Israel","03/25/2022","03/28/2022");
+        app.search().fillSearchFormCurrentMonth("Tel Aviv, Israel","04/25/2022","04/28/2022");
         app.getUserHelper().submitRegForm();
 
         //Assert.assertTrue(app.search().isListOfCarsAppeared());
@@ -20,7 +20,7 @@ public class SearchTests extends TestBase {
     public void searchPeriodCurrentMonth2(){
         //2/25/2022 - 2/28/2022
 
-        app.search().fillSearchFormCurrentMonth("Haifa, Israel","03/25/2022","03/28/2022");
+        app.search().fillSearchFormCurrentMonth("Haifa, Israel","04/25/2022","04/28/2022");
        // app.search().pause(7000);
         app.getUserHelper().submitRegForm();
 
@@ -37,7 +37,7 @@ public class SearchTests extends TestBase {
     //"3/30/2022", "2/22/2023"
     @Test
     public void searchPeriodAnyDataInFuture(){
-        app.search().fillSearchFormInFuture("Haifa","03/30/2022","02/22/2023");
+        app.search().fillSearchFormInFuture("Haifa","04/30/2022","02/25/2023");
         app.getUserHelper().submitRegForm();
         app.search().pause(7000);
 

@@ -1,6 +1,6 @@
 package tests;
 
-import manager.MyDataProvider;
+//import manager.MyDataProvider;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
 import models.User;
@@ -18,7 +18,7 @@ public class LoginTests extends TestBase{
             app.getUserHelper().logOut();
         }
     }
-    @Test (dataProvider = "loginValidData",dataProviderClass = MyDataProvider.class,enabled = false)
+    @Test //(dataProvider = "loginValidData",dataProviderClass = MyDataProvider.class,enabled = false)
     public void LoginPositiveTest(){
         logger.info("LoginPositiveTest");
         User user = new User().withEmail("od26il27@gmail.com").withPassword("Aa7166735");
@@ -35,7 +35,7 @@ public class LoginTests extends TestBase{
 
     }
 
-    @Test (dataProvider = "loginValidData",dataProviderClass = MyDataProvider.class,enabled = false)
+    @Test //(dataProvider = "loginValidData",dataProviderClass = MyDataProvider.class,enabled = false)
     public void LoginPositiveTest2(){
 
         String eMail="od26il27@gmail.com";

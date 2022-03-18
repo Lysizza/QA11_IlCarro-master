@@ -13,8 +13,8 @@ import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
 
-    EventFiringWebDriver wd;
-   // WebDriver wd;
+   // EventFiringWebDriver wd;
+    WebDriver wd;
     UserHelper userHelper;
     CarHelper car;
     HelperSearch search;
@@ -23,6 +23,10 @@ public class ApplicationManager {
     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
     public ApplicationManager(String browser) {
         this.browser = browser;
+    }
+
+    public ApplicationManager() {
+        super();
     }
 
     public void init(){
@@ -45,7 +49,7 @@ public class ApplicationManager {
         userHelper = new UserHelper(wd);
         car = new CarHelper(wd);
         search = new HelperSearch(wd);
-        wd.register(new MyListener());
+       // wd.register(new MyListener());
 
 
 

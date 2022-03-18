@@ -1,6 +1,6 @@
 package tests;
 
-import manager.MyDataProvider;
+
 import models.Car;
 import models.User;
 import org.testng.Assert;
@@ -24,27 +24,24 @@ public class AddNewCarTests extends TestBase {
         }
 
     }
-    @Test (invocationCount = 3)
+    @Test
     public void addNewCarPositive(){
-
-        int countStart = app.getCar().countOfCars();
-        logger.info("The test 'Add new contact starts with count of contact---->"+countStart );
 
         int i= (int)(System.currentTimeMillis()/1000)%3600;
 //Car car = new Car().
         //Car car =Car.builder()
 //             .address("Tel Aviv")
 //             .build();
-        Car car = new Car().withAddress("Tel-Aviv")
+        Car car = new Car().withAddress("Nesher")
                 .withMake("Audi")
-                .withModel("Forester")
+                .withModel("TT")
                 .withYear("2019")
                 .withEngine("2000")
                 .withFuel("Petrol")
                 .withGear("AT")
                 .withWD("RWD")
-                .withDoors("5")
-                .withSeats("5")
+                .withDoors("3")
+                .withSeats("4")
                 .withClasS("Luxury")
                 .withFuelConsumption("10")
                 .withCarRegNumber("1221025"+i)
