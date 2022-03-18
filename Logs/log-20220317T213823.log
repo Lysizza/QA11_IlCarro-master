@@ -1,0 +1,17 @@
+21:38:25. INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+21:38:26. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[contains(.,'Delete account')]
+21:38:36. INFO  manager.MyListener - The element with locator --->By.xpath: //a[contains(.,'Delete account')]was found
+21:38:36. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href$='/registration?url=%2Fsearch']
+21:38:36. INFO  manager.MyListener - The element with locator --->By.cssSelector: [href$='/registration?url=%2Fsearch']was found
+21:38:36. INFO  manager.MyListener - Start search element by locator --->By.id: name
+21:38:36. INFO  manager.MyListener - The element with locator --->By.id: namewas found
+21:38:36. INFO  manager.MyListener - Start search element by locator --->By.id: lastName
+21:38:36. INFO  manager.MyListener - The element with locator --->By.id: lastNamewas found
+21:38:37. INFO  manager.MyListener - Start search element by locator --->By.id: email
+21:38:37. INFO  manager.MyListener - The element with locator --->By.id: emailwas found
+21:38:37. INFO  manager.MyListener - Start search element by locator --->By.id: password
+21:38:37. INFO  manager.MyListener - The element with locator --->By.id: passwordwas found
+21:38:37. INFO  manager.MyListener - Start search element by locator --->By.xpath: //label[@for = 'terms-of-use']
+21:38:37. INFO  manager.MyListener - The element with locator --->By.xpath: //label[@for = 'terms-of-use']was found
+21:38:37. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[@type='submit']
+21:38:37. INFO  manager.MyListener - The element with locator --->By.xpath: //button[@type='submit']was found

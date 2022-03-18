@@ -1,0 +1,86 @@
+15:24:41. INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+15:24:43. INFO  tests.TestBase - Test name ----->addNewCarPositive
+15:24:43. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[contains(.,'Delete account')]
+15:24:53. INFO  manager.MyListener - The element with locator --->By.xpath: //a[contains(.,'Delete account')]was found
+15:24:53. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[@href='/login?url=%2Fsearch']
+15:24:53. INFO  manager.MyListener - The element with locator --->By.xpath: //a[@href='/login?url=%2Fsearch']was found
+15:24:54. INFO  manager.MyListener - Start search element by locator --->By.id: email
+15:24:54. INFO  manager.MyListener - The element with locator --->By.id: emailwas found
+15:24:54. INFO  manager.MyListener - Start search element by locator --->By.id: password
+15:24:54. INFO  manager.MyListener - The element with locator --->By.id: passwordwas found
+15:24:54. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[@type='submit']
+15:24:54. INFO  manager.MyListener - The element with locator --->By.xpath: //button[@type='submit']was found
+15:24:54. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[@type='submit']
+15:24:54. INFO  manager.MyListener - The element with locator --->By.xpath: //button[@type='submit']was found
+15:24:54. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text() ='Ok']
+15:24:55. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text() ='Ok']was found
+15:24:55. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text() ='Ok']
+15:24:55. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text() ='Ok']was found
+15:25:01. INFO  tests.TestBase - Car was addedmodels.Car@249a29af
+15:25:01. INFO  manager.MyListener - Start search element by locator --->By.id: 1
+15:25:01. INFO  manager.MyListener - The element with locator --->By.id: 1was found
+15:25:01. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: h2
+15:25:01. INFO  manager.MyListener - The element with locator --->By.cssSelector: h2was found
+15:25:01. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: h2
+15:25:01. INFO  manager.MyListener - The element with locator --->By.cssSelector: h2was found
+15:25:01. INFO  manager.MyListener - Start search element by locator --->By.id: pickUpPlace
+15:25:01. INFO  manager.MyListener - The element with locator --->By.id: pickUpPlacewas found
+15:25:01. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: div.pac-item
+15:25:02. INFO  manager.MyListener - The element with locator --->By.cssSelector: div.pac-itemwas found
+15:25:03. INFO  manager.MyListener - Start search element by locator --->By.id: make
+15:25:03. INFO  manager.MyListener - The element with locator --->By.id: makewas found
+15:25:03. INFO  manager.MyListener - Start search element by locator --->By.id: model
+15:25:03. INFO  manager.MyListener - The element with locator --->By.id: modelwas found
+15:25:03. INFO  manager.MyListener - Start search element by locator --->By.id: year
+15:25:03. INFO  manager.MyListener - The element with locator --->By.id: yearwas found
+15:25:03. INFO  manager.MyListener - Start search element by locator --->By.id: engine
+15:25:03. INFO  manager.MyListener - The element with locator --->By.id: enginewas found
+15:25:03. INFO  manager.MyListener - Start search element by locator --->By.id: fuel
+15:25:03. INFO  manager.MyListener - The element with locator --->By.id: fuelwas found
+15:25:03. INFO  manager.MyListener - Start search element by locator --->By.xpath: .//option[@value = "Petrol"]
+15:25:03. INFO  manager.MyListener - The element with locator --->By.xpath: .//option[@value = "Petrol"]was found
+15:25:03. INFO  manager.MyListener - Start search element by locator --->By.id: gear
+15:25:03. INFO  manager.MyListener - The element with locator --->By.id: gearwas found
+15:25:03. INFO  manager.MyListener - Start search element by locator --->By.xpath: .//option[@value = "AT"]
+15:25:03. INFO  manager.MyListener - The element with locator --->By.xpath: .//option[@value = "AT"]was found
+15:25:03. INFO  manager.MyListener - Start search element by locator --->By.id: wheelsDrive
+15:25:03. INFO  manager.MyListener - The element with locator --->By.id: wheelsDrivewas found
+15:25:03. INFO  manager.MyListener - Start search element by locator --->By.xpath: .//option[@value = "RWD"]
+15:25:03. INFO  manager.MyListener - The element with locator --->By.xpath: .//option[@value = "RWD"]was found
+15:25:03. INFO  manager.MyListener - Start search element by locator --->By.id: doors
+15:25:03. INFO  manager.MyListener - The element with locator --->By.id: doorswas found
+15:25:04. INFO  manager.MyListener - Start search element by locator --->By.id: seats
+15:25:04. INFO  manager.MyListener - The element with locator --->By.id: seatswas found
+15:25:04. INFO  manager.MyListener - Start search element by locator --->By.id: class
+15:25:04. INFO  manager.MyListener - The element with locator --->By.id: classwas found
+15:25:04. INFO  manager.MyListener - Start search element by locator --->By.id: fuelConsumption
+15:25:04. INFO  manager.MyListener - The element with locator --->By.id: fuelConsumptionwas found
+15:25:04. INFO  manager.MyListener - Start search element by locator --->By.id: serialNumber
+15:25:04. INFO  manager.MyListener - The element with locator --->By.id: serialNumberwas found
+15:25:04. INFO  manager.MyListener - Start search element by locator --->By.id: price
+15:25:04. INFO  manager.MyListener - The element with locator --->By.id: pricewas found
+15:25:04. INFO  manager.MyListener - Start search element by locator --->By.id: distance
+15:25:04. INFO  manager.MyListener - The element with locator --->By.id: distancewas found
+15:25:04. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .feature-input
+15:25:04. INFO  manager.MyListener - The element with locator --->By.cssSelector: .feature-inputwas found
+15:25:04. INFO  manager.MyListener - Start search element by locator --->By.id: about
+15:25:04. INFO  manager.MyListener - The element with locator --->By.id: aboutwas found
+15:25:05. INFO  manager.MyListener - Start search element by locator --->By.id: photos
+15:25:05. INFO  manager.MyListener - The element with locator --->By.id: photoswas found
+15:25:05. INFO  manager.MyListener - Something went wrong!!!
+15:25:05. INFO  manager.MyListener - invalid argument: File not found : E:\QA11\QA11_IlCarro\Q(2823).png
+  (Session info: chrome=99.0.4844.51)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GTJO46A', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Alex\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57227}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7452718e8e5c950b90da5bd6490c1a8
+15:25:05. INFO  manager.MyListener - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : E:\QA11\QA11_IlCarro\Q(2823).png
+  (Session info: chrome=99.0.4844.51)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GTJO46A', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Alex\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57227}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7452718e8e5c950b90da5bd6490c1a8
+15:25:05. INFO  manager.MyListener - This link to screenshot with error ------>src/test/screenshots1505.png
+15:25:05. INFO  tests.TestBase - Test endaddNewCarPositive

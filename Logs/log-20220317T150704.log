@@ -1,0 +1,73 @@
+15:07:06. INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+15:07:07. INFO  tests.TestBase - Test name ----->LoginPositiveTest
+15:07:07. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[contains(.,'Delete account')]
+15:07:18. INFO  manager.MyListener - The element with locator --->By.xpath: //a[contains(.,'Delete account')]was found
+15:07:18. INFO  tests.TestBase - LoginPositiveTest
+15:07:18. INFO  tests.TestBase - LoginPositiveTest
+15:07:18. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[@href='/login?url=%2Fsearch']
+15:07:18. INFO  manager.MyListener - The element with locator --->By.xpath: //a[@href='/login?url=%2Fsearch']was found
+15:07:18. INFO  manager.MyListener - Start search element by locator --->By.id: email
+15:07:18. INFO  manager.MyListener - The element with locator --->By.id: emailwas found
+15:07:18. INFO  manager.MyListener - Start search element by locator --->By.id: password
+15:07:18. INFO  manager.MyListener - The element with locator --->By.id: passwordwas found
+15:07:18. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[@type='submit']
+15:07:18. INFO  manager.MyListener - The element with locator --->By.xpath: //button[@type='submit']was found
+15:07:18. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[@type='submit']
+15:07:18. INFO  manager.MyListener - The element with locator --->By.xpath: //button[@type='submit']was found
+15:07:18. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[contains(.,'Delete account')]
+15:07:19. INFO  manager.MyListener - The element with locator --->By.xpath: //a[contains(.,'Delete account')]was found
+15:07:19. INFO  manager.MyListener - Start search element by locator --->By.xpath: //*[text()='Ok']
+15:07:19. INFO  manager.MyListener - The element with locator --->By.xpath: //*[text()='Ok']was found
+15:07:19. INFO  tests.TestBase - Test endLoginPositiveTest
+15:07:19. INFO  tests.TestBase - Test name ----->LoginPositiveTest2
+15:07:19. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[contains(.,'Delete account')]
+15:07:19. INFO  manager.MyListener - The element with locator --->By.xpath: //a[contains(.,'Delete account')]was found
+15:07:19. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[text()=' Logout ']
+15:07:19. INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()=' Logout ']was found
+15:07:19. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[@href='/login?url=%2Fsearch']
+15:07:19. INFO  manager.MyListener - The element with locator --->By.xpath: //a[@href='/login?url=%2Fsearch']was found
+15:07:19. INFO  manager.MyListener - Start search element by locator --->By.id: email
+15:07:19. INFO  manager.MyListener - The element with locator --->By.id: emailwas found
+15:07:19. INFO  manager.MyListener - Something went wrong!!!
+15:07:19. INFO  manager.MyListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GTJO46A', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Alex\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61326}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 379e3edc2bbd77003403010e603b20d9
+15:07:19. INFO  manager.MyListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GTJO46A', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Alex\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61326}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 379e3edc2bbd77003403010e603b20d9
+15:07:19. INFO  manager.MyListener - This link to screenshot with error ------>src/test/screenshots439.png
+15:07:19. INFO  manager.MyListener - Start search element by locator --->By.xpath: //*[text()='Ok']
+15:07:29. INFO  manager.MyListener - Something went wrong!!!
+15:07:29. INFO  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Ok']"}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GTJO46A', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Alex\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61326}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 379e3edc2bbd77003403010e603b20d9
+*** Element info: {Using=xpath, value=//*[text()='Ok']}
+15:07:29. INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Ok']"}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GTJO46A', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Alex\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61326}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 379e3edc2bbd77003403010e603b20d9
+*** Element info: {Using=xpath, value=//*[text()='Ok']}
+15:07:30. INFO  manager.MyListener - This link to screenshot with error ------>src/test/screenshots449.png
+15:07:30. INFO  tests.TestBase - Test endLoginPositiveTest2
+15:07:30. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[contains(.,'Delete account')]
+15:07:40. INFO  manager.MyListener - The element with locator --->By.xpath: //a[contains(.,'Delete account')]was found
+15:07:40. INFO  tests.TestBase - Test endLoginWrongPasswordTest

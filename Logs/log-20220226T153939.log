@@ -1,0 +1,22 @@
+15:39:42. INFO  manager.ApplicationManager - All tests starts in Chrome browser
+15:39:44. INFO  tests.TestBase - Test name ----->addNewCarPositive
+15:40:02. INFO  tests.TestBase - Car was addedmodels.Car@3d1fd68b
+15:40:10. INFO  tests.TestBase - Test endaddNewCarPositive
+15:40:10. INFO  tests.TestBase - Test name ----->LoginPositiveTest
+15:40:11. INFO  tests.TestBase - LoginPositiveTest
+15:40:11. INFO  tests.TestBase - LoginPositiveTest
+15:40:12. INFO  tests.TestBase - Test endLoginPositiveTest
+15:40:12. INFO  tests.TestBase - Test name ----->LoginPositiveTest2
+15:40:16. INFO  tests.TestBase - Test endLoginPositiveTest2
+15:40:16. INFO  tests.TestBase - Test name ----->LoginWrongPasswordTest
+15:40:27. INFO  tests.TestBase - Test endLoginWrongPasswordTest
+15:40:27. INFO  tests.TestBase - Test name ----->registrationPositiveTest
+15:40:41. INFO  tests.TestBase - Test endregistrationPositiveTest
+15:40:41. INFO  tests.TestBase - Test name ----->registrationPositiveTestModel
+15:40:53. INFO  tests.TestBase - Test endregistrationPositiveTestModel
+15:40:53. INFO  tests.TestBase - Test name ----->searchPeriodAnyDataInFuture
+15:41:04. INFO  tests.TestBase - Test endsearchPeriodAnyDataInFuture
+15:41:04. INFO  tests.TestBase - Test name ----->searchPeriodCurrentMonth
+15:41:13. INFO  tests.TestBase - Test endsearchPeriodCurrentMonth
+15:41:13. INFO  tests.TestBase - Test endsearchPeriodCurrentMonth2
+15:41:13. INFO  tests.TestBase - Test endtypePeriodInFuture

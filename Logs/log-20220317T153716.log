@@ -1,0 +1,18 @@
+15:37:18. INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+15:37:20. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[contains(.,'Delete account')]
+15:37:30. INFO  manager.MyListener - The element with locator --->By.xpath: //a[contains(.,'Delete account')]was found
+15:37:30. INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href$='/registration?url=%2Fsearch']
+15:37:30. INFO  manager.MyListener - The element with locator --->By.cssSelector: [href$='/registration?url=%2Fsearch']was found
+15:37:30. INFO  manager.MyListener - Start search element by locator --->By.id: name
+15:37:30. INFO  manager.MyListener - The element with locator --->By.id: namewas found
+15:37:30. INFO  manager.MyListener - Start search element by locator --->By.id: lastName
+15:37:30. INFO  manager.MyListener - The element with locator --->By.id: lastNamewas found
+15:37:30. INFO  manager.MyListener - Start search element by locator --->By.id: email
+15:37:30. INFO  manager.MyListener - The element with locator --->By.id: emailwas found
+15:37:31. INFO  manager.MyListener - Start search element by locator --->By.id: password
+15:37:31. INFO  manager.MyListener - The element with locator --->By.id: passwordwas found
+15:37:31. INFO  manager.MyListener - Start search element by locator --->By.xpath: //label[@for = 'terms-of-use']
+15:37:31. INFO  manager.MyListener - The element with locator --->By.xpath: //label[@for = 'terms-of-use']was found
+15:37:31. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[@type='submit']
+15:37:31. INFO  manager.MyListener - The element with locator --->By.xpath: //button[@type='submit']was found
+15:37:34. INFO  tests.TestBase - Test endregistrationPositiveTest

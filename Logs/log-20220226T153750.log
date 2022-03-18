@@ -1,0 +1,5 @@
+15:37:53. INFO  manager.ApplicationManager - All tests starts in Chrome browser
+15:37:55. INFO  tests.TestBase - Test name ----->LoginPositiveTest
+15:38:05. INFO  tests.TestBase - LoginPositiveTest
+15:38:05. INFO  tests.TestBase - LoginPositiveTest
+15:38:12. INFO  tests.TestBase - Test endLoginPositiveTest
